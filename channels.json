@@ -1,0 +1,52 @@
+{
+  "@ratttest": {
+    "name": "RatTest",
+    "category": "games",
+    "posts_per_day": 10,
+    "time_mode": "fixed",
+    "min_interval": 100,
+    "fixed_times": [
+      "09:00",
+      "10:00",
+      "11:00",
+      "12:00",
+      "13:00",
+      "14:00",
+      "15:00",
+      "16:00",
+      "17:00",
+      "18:00"
+    ],
+    "disabled_sources": [],
+    "ignore_words": [],
+    "template": "111",
+    "gemini_api_key": "AIzaSyDEmXE_GlFmq8czQxvYOv9nxMaOtCqpcaQ",
+    "gemini_model": "gemini-3-flash-preview",
+    "gemini_error_count": 0,
+    "auto_post_enabled": true,
+    "auto_post_schedule": [
+      "17:00",
+      "18:00"
+    ],
+    "last_post_date": "2026-02-20"
+  },
+  "@techtest1234567": {
+    "name": "Технологии Тест",
+    "category": "it",
+    "posts_per_day": 10,
+    "time_mode": "random",
+    "min_interval": 100,
+    "fixed_times": [],
+    "disabled_sources": [],
+    "ignore_words": [],
+    "template": "техно",
+    "gemini_model": "gemini-2.5-flash-lite",
+    "gemini_error_count": 0,
+    "auto_post_enabled": true,
+    "auto_post_schedule": [
+      "18:31",
+      "21:45"
+    ],
+    "last_post_date": "2026-02-20"
+  }
+}
